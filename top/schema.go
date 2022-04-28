@@ -3,7 +3,7 @@ package top
 import (
 	"reflect"
 
-	"github.com/gyuho/linux-inspect/schema"
+	"github.com/83567599/linux-inspect/schema"
 )
 
 // RowSchema represents a row in 'top' command output.
