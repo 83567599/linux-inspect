@@ -6,7 +6,7 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/gyuho/linux-inspect/pkg/fileutil"
+	"github.com/83567599/linux-inspect/pkg/fileutil"
 )
 
 // DefaultExecPath is the default 'top' command path.
