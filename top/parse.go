@@ -132,7 +132,8 @@ func Parse(s string) ([]Row, error) {
 
 		row := strings.Fields(strings.TrimSpace(line))
 		if len(row) != len(Headers) {
-			return nil, fmt.Errorf("unexpected row column number %v (expected %v)", row, Headers)
+			row = row[0:len(Headers)]
+			//return nil, fmt.Errorf("unexpected row column number %v (expected %v)", row, Headers)
 		}
 		rows = append(rows, row)
 	}
